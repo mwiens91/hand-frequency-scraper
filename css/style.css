@@ -1,0 +1,65 @@
+/* font */
+body,
+.tooltip,
+text {
+  font-family: "Inconsolata", monospace;
+}
+
+/* log input */
+textarea {
+  height: 500px;
+}
+
+/* tooltips */
+.tooltip {
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  background: #dddddd;
+  padding: 10px;
+}
+
+/* heatmap */
+#results-grid-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#results-grid-div .axis text {
+  font-size: 14px;
+}
+#results-grid-div .tick line {
+  opacity: 0;
+}
+#results-grid-div .domain {
+  opacity: 0;
+}
+
+/* cdf plot */
+#results-cdf-plot-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#results-cdf-plot-div .axis text {
+  font-size: 12px;
+}
+#results-cdf-plot-div .axis-grid line {
+  stroke: black;
+  stroke-width: 0.08;
+}
+
+/* results list */
+.results-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.results-list-item-hand-value-span {
+  display: inline-block;
+  width: 45px;
+}
+.results-list-item-hand-count-span {
+  display: inline-block;
+  width: 30px;
+}
